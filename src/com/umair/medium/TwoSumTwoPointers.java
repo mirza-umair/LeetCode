@@ -7,7 +7,6 @@ public class TwoSumTwoPointers {
 
 	// time O(n)and space O(1)
 	public int[] twoSum(int[] nums, int target) {
-
 		int l = 0, r = nums.length - 1;
 		while (l <= r) {
 			int sum = nums[l] + nums[r];
